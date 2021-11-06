@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <title>Forms demo</title>
+</head>
+
+<body>
+   <h1>Forms</h1>
+   <form action="search">
+      <p><label for="Name">Введите имя пользователя или пароль</label>
+         <input type="text" placeholder="Электронный адрес или номер телефона" id="Name" name="Name">
+      </p>
+      <p>
+         <label for="password">Введите пароль</label>
+         <input type="password" placeholder="Пароль" id="password" name="password" />
+      </p>
+      <p>
+      <section>
+         Выберите понравившийся вариант: <br>
+         <input type="radio" id="Blue pen" name="pen">
+         <label for="chose">Blue pen</label>
+      </section>
+      <section>
+         <input type="radio" id="Black pen" name="pen">
+         <label for="cheese">Black pen</label>
+      </section>
+      <section>
+         <input type="radio" id="Yellow pen" name="pen">
+         <label for="rzrz">Yellow pen</label>
+      </section>
+      <button>Отправить</button>
+      </p>
+
+      <p>
+         Выберите предложенный вариант: <br>
+         <label for="box">all incluseve</label>
+         <input type="checkbox" id="box" name="all incluseve">
+         <label for="box12">only breakfast</label>
+         <input type="checkbox" id="box12" name="breakfast">
+         <label for="box12">only breakfast and dinner</label>
+         <input type="checkbox" id="box12" name="brakfastanddinner">
+         <button>Отправить выбранный вариант</button>
+      </p>
+      <p>
+         <label for="11">Введите свой адрес электронной почты</label>
+         <input type="email" placeholder="Введите Email" id="11" name="email">
+      </p>
+      <p>
+         <label for="22">Выберите цвет</label>
+         <input type="color" placeholder="eeeer" id="22" name="сolor">
+      </p>
+      <p>
+         <label for="33">Выберите удобную для вас дату</label>
+         <input type="date" id="33" name="date">
+      </p>
+      <p>
+         <label for="44">Вова крут?</label>
+         <input type="range" placeholder="eeeer" id="44" name="assesment">
+      </p>
+      <p>
+         <label for="er"></label>
+         <input type="submit" value="Отправить" name="Отправить" id="er">
+      </p>
+
+      <button>Отправить</button>
+   </form>
+
+   <form action="https://yandex.by/search/">
+      <input type="text" name="text" id="">
+      <button>Отправить запрос в Яндекс</button>
+   </form>
+
+   <form action="https://www.google.com/search">
+      <input type="text" name="q" id="">
+      <button>Отправить запрос в Google</button>
+   </form>
+   <form action="https://www.youtube.com/results">
+      <input type="text" name="search_query" id="">
+      <button>Отправить запрос в youtube</button>
+   </form>
+   <form action=" "></form>
+
+   <form action="search">
+      <p>
+      <section>
+         Выберите понравившийся вариант: <br>
+         <input type="radio" id="Blue pen" name="pen" value="Blue pen">
+         <label for="chose">Blue pen</label>
+      </section>
+      <section>
+         <input type="radio" id="Black pen" name="pen" value="Black pen">
+         <label for="cheese">Black pen</label>
+      </section>
+      <section>
+         <input type="radio" id="Yellow pen" name="pen" value="Yellow pen">
+         <label for="rzrz">Yellow pen</label>
+      </section>
+      <button>Отправить</button>
+      </p>
+   </form>
+
+   <form action="search">
+      <section>
+         <label for="vacation_month">Когда бы вы хотели уйти в отпуск</label>
+         <select name="vacation" id="vacation_month">
+            <option value="July">July</option>
+            <option value="October">October</option>
+            <option value="March" selected>March</option>
+            <option value="August">August</option>
+         </select>
+      </section>
+      <button>Отправить</button>
+   </form>
+   <form action="search">
+      <p>
+         <label for="commetns">Tell me your story</label>
+         <br>
+         <textarea name="" id="comments" cols="50" rows="7" placeholder="Your wishes"></textarea>
+         <br>
+         <button>Отправить</button>
+      </p>
+
+   </form>
+</body>
+
+
+</html>
